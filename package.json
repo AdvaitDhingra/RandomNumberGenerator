@@ -1,0 +1,22 @@
+{
+  "name": "randomnumbergenerator",
+  "version": "1.0.0",
+  "description": "Generate a random number using the Bifurcation Equation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdvaitDhingra/RandomNumberGenerator.git"
+  },
+  "author": "AdvaitDhingra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdvaitDhingra/RandomNumberGenerator/issues"
+  },
+  "homepage": "https://github.com/AdvaitDhingra/RandomNumberGenerator#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}

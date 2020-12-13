@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Number Generator</title>
-    <script src = "index.js"></script>
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./node_modules/bootstrap/dist/css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+
 </head>
+
 <body>
-    <h1>Generate a random number using the Bifurcation Equation</h1>
+    <h3>Generate a random number using the <a href="https://en.wikipedia.org/wiki/Bifurcation_theory" target="_new">Bifurcation Equation</a></h3>
+    <br><br>
+    <h4 id="number">0</h4>
     <br>
+    <button onclick="generate()" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="right"
+        title="Press this button to generate a sudo-random number">Generate a sudo-random number</button>
+    <br><br>
+    <h4>Here's how the equation works 👇</h4>
     <br>
-    <br>
-    <h3 id = "number">0</h3>
-    <button onclick="generate()">Press the Button to generate a sudo-random number</button>
-    <h3>How this equation works:</h3>
-    <br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ovJcsL7vyrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>(Yes, I know the style on this website is shit. I focused more on the logic)</p>
+    <div class="card" style="left:auto; width: 500px">
+        <div class="card-body">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ovJcsL7vyrk" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script
+        src = "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
+    </script>
+
 </body>
+
 </html>

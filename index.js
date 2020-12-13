@@ -9,7 +9,7 @@ function generate(){
     console.log(a)
     var answer = a * 10
     console.log(answer)
-    document.getElementById("number").innerHTML = answer;
+    document.getElementById("number").innerHTML = answer || console.log(answer);
 }
 function formula(x){
     return((x + 3.8) * x * (1 - x));
