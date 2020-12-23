@@ -1,2 +1,2 @@
 # RandomNumberGenerator
-A sudo random number generator
+A pseudorandom number generator
